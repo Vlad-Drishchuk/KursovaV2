@@ -68,7 +68,7 @@ namespace KursovaV2 {
 				static_cast<System::Byte>(0)));
 			this->label1->Location = System::Drawing::Point(12, 9);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(435, 34);
+			this->label1->Size = System::Drawing::Size(213, 18);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Додаток для тестування учнів";
 			// 
@@ -77,7 +77,7 @@ namespace KursovaV2 {
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(13, 52);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(777, 27);
+			this->label2->Size = System::Drawing::Size(401, 16);
 			this->label2->TabIndex = 1;
 			this->label2->Text = L"Проєкт створив, студент групи КІ2-22-2, Дріщук Владислав Геннадійович";
 			// 
@@ -93,11 +93,11 @@ namespace KursovaV2 {
 			// 
 			// MainForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(13, 27);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(231)), static_cast<System::Int32>(static_cast<System::Byte>(231)),
 				static_cast<System::Int32>(static_cast<System::Byte>(231)));
-			this->ClientSize = System::Drawing::Size(1041, 430);
+			this->ClientSize = System::Drawing::Size(449, 251);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
